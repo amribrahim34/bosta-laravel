@@ -1,20 +1,20 @@
 {
-    "name": "amribrahim34/bosta-laravel",
-    "description": "this package is for integration with Egyptien curior bosta",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Amribrahim34\\BostaLaravel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Amr Ibrahim",
-            "email": "amramr3434@gmail.com"
-        }
-    ],
-    "require": {
-        "illuminate/support": "^10.48"
+  "name": "amribrahim34/bosta-laravel",
+  "description": "this package is for integration with Egyptien curior bosta",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Amribrahim34\\BostaLaravel\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Amr Ibrahim",
+      "email": "amramr3434@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
 }
