@@ -17,7 +17,7 @@ class BostaEgyptServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/bosta.php' => config_path('bosta-egypt.php'),
+            __DIR__ . '/../config/bosta-egypt.php' => config_path('bosta-egypt.php'),
         ], 'config');
     }
 }
