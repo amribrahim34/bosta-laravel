@@ -2,9 +2,8 @@
 
 namespace amribrahim34\BostaEgypt\Endpoints;
 
-use amribrahim34\BostaEgypt\BostaApi;
 
-class Notifications extends BostaApi
+class Notifications extends BaseEndpoint
 {
     public function getAll()
     {

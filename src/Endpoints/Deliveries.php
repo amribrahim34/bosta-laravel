@@ -2,11 +2,10 @@
 
 namespace amribrahim34\BostaEgypt\Endpoints;
 
-use amribrahim34\BostaEgypt\BostaApi;
 use amribrahim34\BostaEgypt\Builders\DeliverySearchBuilder;
 use amribrahim34\BostaEgypt\Builders\UpdateDeliveryBuilder;
 
-class Deliveries extends BostaApi
+class Deliveries extends BaseEndpoint
 {
     public function create($data)
     {

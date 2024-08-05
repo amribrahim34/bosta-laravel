@@ -2,9 +2,8 @@
 
 namespace amribrahim34\BostaEgypt\Endpoints;
 
-use amribrahim34\BostaEgypt\BostaApi;
 
-class Pricing extends BostaApi
+class Pricing extends BaseEndpoint
 {
     public function calculateShipment($params)
     {

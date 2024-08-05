@@ -2,9 +2,8 @@
 
 namespace amribrahim34\BostaEgypt\Endpoints;
 
-use amribrahim34\BostaEgypt\BostaApi;
 
-class Pickups extends BostaApi
+class Pickups extends BaseEndpoint
 {
     public function create($data)
     {

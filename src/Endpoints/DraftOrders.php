@@ -2,9 +2,8 @@
 
 namespace amribrahim34\BostaEgypt\Endpoints;
 
-use amribrahim34\BostaEgypt\BostaApi;
 
-class DraftOrders extends BostaApi
+class DraftOrders extends BaseEndpoint
 {
     public function createDraftOrder($data)
     {
